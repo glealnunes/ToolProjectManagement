@@ -1,14 +1,17 @@
 import './App.css'
 
 import Navbar from './components/Navbar/Navbar';
-
+import TaskList from './components/TaskList/TaskList'
 function App() {
   return (
     <>
-      <div>
-        <Navbar></Navbar>
-        <h1>Olá mundo</h1>
-        <h2>start editing to see ome</h2>
+      <div className="App">
+        <Navbar/>
+        <div>
+          <TaskList title="Pendente"/>
+          <TaskList title="Fazendo"/>
+          <TaskList title="Completa"/>
+        </div>
       </div>
     </>
   )
