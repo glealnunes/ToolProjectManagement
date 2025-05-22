@@ -1,12 +1,87 @@
-# React + Vite
+# 🗂️ Kanban Board - Projeto de Prática em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_"Organização é a chave para transformar ideias em realidade."_
 
-Currently, two official plugins are available:
+Bem-vindo ao **Kanban Board**, uma aplicação web desenvolvida com foco em aprimorar habilidades no desenvolvimento com **React**. Uma ferramenta simples, prática e funcional para gerenciar tarefas de forma visual e intuitiva! 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📝 Planejamento e Proposta
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎯 Este projeto foi pensado para:
+
+- Praticar e consolidar os fundamentos do React  
+- Exercitar conceitos como componentes, hooks, estado e manipulação de eventos  
+- Construir uma interface limpa, funcional e responsiva  
+
+O design prioriza uma experiência leve, intuitiva e que facilita a organização de tarefas no estilo Kanban.
+
+---
+
+## 🖥️ Telas e Funcionalidades
+
+| Tela                 | Descrição                                                                 |
+| -------------------- | ------------------------------------------------------------------------- |
+| Visualização         | Quadro Kanban com listas de tarefas (A Fazer, Fazendo e Feito)           |
+| Criação              | Formulário para adicionar novas tarefas                                  |
+| Edição               | Editar tarefas existentes diretamente no quadro                          |
+| Exclusão             | Remover tarefas indesejadas                                              |
+| Movimentação         | Arrastar tarefas entre colunas para atualizar seu status                 |
+
+---
+
+## ⚙️ Tecnologias e Ferramentas
+
+- **Front-end:**  
+  - React  
+  - Vite  
+  - CSS3 (customizado)  
+
+- **Bibliotecas:**  
+  - React Icons (para ícones)  
+  - [Drag and Drop nativo ou biblioteca auxiliar, se utilizado]  
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1️⃣ Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/kanban-board.git
+```
+### 🎨 Rodando o Frontend
+
+Instale as dependências:
+```bash
+npm install
+```
+Inicie o app React:
+```bash
+npm run dev
+```
+## 🔥 Funcionalidades Implementadas
+- Adicionar tarefas
+- Editar tarefas
+- Deletar tarefas
+- Mover tarefas entre colunas (drag and drop)
+- Layout responsivo para diferentes tamanhos de tela
+- Feedback visual durante as interações
+
+---
+
+## Diferenciais
+
+- Interface limpa, intuitiva e responsiva 📱
+- Código organizado e componentizado
+- Prática dos principais conceitos do React
+- Projeto pronto para evoluções, como integração com backend futuramente
+
+---
+
+## 📬 Contato
+
+💌 Entre em contato para dúvidas ou sugestões:
+
+- Email: **gpfilho@gmail.com**
+
+---
